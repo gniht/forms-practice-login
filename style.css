@@ -17,19 +17,19 @@
   text-align: center;
 }
 
-.login {
+.button {
   background-color: #0077C5;
   color: white;  
   font-size: 1.3em;
   margin: 5px;
   padding: 3px 10px 3px 10px;
+  border: none;  
   border-radius: 10%;
 }
 
-.login:hover {
-  margin-left: 4px;    
-  border-left: 3px solid black;  
-  border-bottom: 4px solid black;
+.button:hover {
+  padding: 3px 7px 3px 7px;   
+  border: 3px solid black;  
 }
 
 .logo-container {
@@ -48,7 +48,8 @@
   justify-content: center;
   align-items: center; 
   font-weight: 1;
-  width: 380px;
+  width: 360px;
+  height: 550px;
   border: 1px solid lightgray;
   padding: 10px;  
 }
@@ -58,7 +59,7 @@
 }
 
 form {
-  width: 320px;  
+  width: 280px;  
   margin-top: 20px;
 }
 
@@ -80,8 +81,43 @@ form {
   margin-bottom: 3px;
 } 
 
-.phone-note { 
+.note { 
   text-align: left; 
   font-size: .8em;
   margin-bottom: 30px;
 }
+
+form .button {
+  height: 35px;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  margin-left: 0px;
+  margin-right: 0%;
+  margin-bottom: 20px;
+}
+
+.foot .note {
+  font-style: italic;
+  text-align: center;
+  word-wrap: none;
+  margin: 2px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: .8em;  
+  font-style: normal;
+}
+footer p {
+  margin: 2px;
+}
+footer span p {
+  font-size: 1.2em;
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+

@@ -17,7 +17,7 @@
       </div>
     </div>
     <div>
-      <a href="login.html"><button class="login">Sign in</button></a>
+      <a href="login.html"><button class="button">Sign in</button></a>
     </div>
   </div>
   <header>
@@ -32,16 +32,26 @@
         
         <form action="">
           <label for="email">Email address</label>
-          <input type="text" name="email" id="email" required>
+          <input type="email" name="email" id="email" required>
           <label for="phone">Phone (recommended)</label>
-          <input class="phone" type="text" name="phone" id="phone">
-          <p class="phone-note">Standard call, messaging, or data rates may apply.</p>
+          <input class="phone" type="phone" name="phone" id="phone">
+          <p class="note">Standard call, messaging, or data rates may apply.</p>
           <label for="password">Password</label>
-          <input type="text" name="password" id="password" required>
+          <input type="password" name="password" id="password" required>
+          <button class="button" type="submit" name="SignUp">Create Account</button>
         </form>
+        <div class="foot">
+          <p class="note">By clicking Create Account you agree to our</p> 
+          <p class="note"><a href="">Terms</a> and have read and acknowledge our</p> <p class="note"><a href="">Global Privacy Statement</a></p>
+        </div>        
       </div>
     </div>
   </header>
+  <footer class="footer">
+    <span class="footer-span"><p>Legal</p> <p>Privacy</p> <p>Security</p></span>
+    <p>&copy; 2021 All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</p>
+    <p>Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+  </footer>
 
 </body>
 </html>
